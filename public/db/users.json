@@ -1,0 +1,42 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "name": "User 1",
+      "phone": "1234567890",
+      "address": "123 Main St",
+      "orders": [
+        {
+          "id": 1,
+          "chefId": 1,
+          "dish": "Spaghetti",
+          "status": "Pending"
+        },
+        {
+          "id": 2,
+          "chefId": 2,
+          "dish": "Croissant",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "name": "User 2",
+      "phone": "9876543210",
+      "address": "456 Elm St",
+      "orders": [
+        {
+          "id": 3,
+          "chefId": 1,
+          "dish": "Pizza",
+          "status": "Pending"
+        }
+      ]
+    }
+  ]
+}

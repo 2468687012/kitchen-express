@@ -1,0 +1,44 @@
+{
+  "chefs": [
+    {
+      "id": 1,
+      "name": "Chef 1",
+      "phone": "1111111111",
+      "address": "789 Oak St",
+      "orders": [
+        {
+          "id": 1,
+          "userId": 1,
+          "dish": "Spaghetti",
+          "price": "999",
+          "time": "19:00",
+          "status": "Pending"
+        },
+        {
+          "id": 3,
+          "userId": 2,
+          "dish": "Pizza",
+          "price": "999",
+          "time": "19:00",
+          "status": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chef 2",
+      "phone": "2222222222",
+      "address": "456 Pine St",
+      "orders": [
+        {
+          "id": 2,
+          "userId": 1,
+          "dish": "Croissant",
+          "price": "999",
+          "time": "19:00",
+          "status": "Completed"
+        }
+      ]
+    }
+  ]
+}
