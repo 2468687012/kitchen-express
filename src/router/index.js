@@ -12,11 +12,7 @@ import Profile from '../views/UserProfile.vue';
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/user',
-    name: 'user',
-    component: Login
-  },
+
   {
     
     path: '/',
@@ -44,7 +40,12 @@ const routes = [
         path: '/profile',
         name: 'profile',
         component: Profile,
-      }
+      },
+      {
+        path: '/user',
+        name: 'user',
+        component: Login
+      },
     ]
   },
 
