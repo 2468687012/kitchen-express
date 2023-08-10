@@ -12,13 +12,15 @@
           "id": 1,
           "chefId": 1,
           "dish": "Spaghetti",
+          "price": "999",
           "status": "Pending"
         },
         {
           "id": 2,
           "chefId": 2,
-          "dish": "Croissant",
-          "status": "Completed"
+          "dish": "Spaghetti",
+          "price": "999",
+          "status": "Pending"
         }
       ]
     },
@@ -33,7 +35,8 @@
         {
           "id": 3,
           "chefId": 1,
-          "dish": "Pizza",
+          "dish": "Spaghetti",
+          "price": "999",
           "status": "Pending"
         }
       ]
